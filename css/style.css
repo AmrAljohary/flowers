@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
 *{
-    font-family: 'Poppins',cursive;
+    font-family: cursive;
 }
 body{
     color: azure;
@@ -16,6 +16,8 @@ body{
 .greetings{
     font-size: 6rem;
     font-weight: 900;
+    margin-bottom: 15px;
+
 }
 .greetings > span{
     animation: glow 2.5s ease-in-out infinite;
@@ -68,9 +70,7 @@ body{
         font-size: 1rem;
     }
     
-    .button a{
-        font-size: .5rem;
-    }
+
 }
 
 .btn {
